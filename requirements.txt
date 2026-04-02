@@ -1,3 +1,4 @@
 numpy>=1.21
 scipy>=1.7
 matplotlib>=3.5
+torch>=2.0  # only needed for GMDB/RareBench (classifier weight loading)
