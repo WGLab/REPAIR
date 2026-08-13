@@ -5,6 +5,16 @@
 </p>
 
 <p align="center">
+  <a href="https://colmweb.org/"><img src="https://img.shields.io/badge/COLM%202026-Accepted-b31b1b" alt="COLM 2026"></a>
+  <a href="https://arxiv.org/abs/2604.01506"><img src="https://img.shields.io/badge/arXiv-2604.01506-b31b1b" alt="arXiv"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>
+</p>
+
+<p align="center">
+  🎉 <b>Our paper has been accepted at the Conference on Language Modeling (COLM) 2026!</b> 🎉
+</p>
+
+<p align="center">
   <a href="#method">Method</a> &bull;
   <a href="#results">Results</a> &bull;
   <a href="#installation">Installation</a> &bull;
@@ -182,16 +192,14 @@ python -m experiments.contradictory rarebench
 
 ## Citation
 
-If you find this work useful, please cite our paper.
+If you find this work useful, please cite our paper (accepted at COLM 2026):
 ```bibtex
-@misc{wang2026logitadjustmentresidualdecomposition,
-      title={Beyond Logit Adjustment: A Residual Decomposition Framework for Long-Tailed Reranking}, 
+@inproceedings{wang2026repair,
+      title={Beyond Logit Adjustment: A Residual Decomposition Framework for Long-Tailed Reranking},
       author={Zhanliang Wang and Hongzhuo Chen and Quan Minh Nguyen and Mian Umair Ahsan and Kai Wang},
+      booktitle={Conference on Language Modeling (COLM)},
       year={2026},
-      eprint={2604.01506},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2604.01506}, 
+      url={https://arxiv.org/abs/2604.01506},
 }
 ```
 
