@@ -194,12 +194,14 @@ python -m experiments.contradictory rarebench
 
 If you find this work useful, please cite our paper (accepted at COLM 2026):
 ```bibtex
-@inproceedings{wang2026repair,
-      title={Beyond Logit Adjustment: A Residual Decomposition Framework for Long-Tailed Reranking},
+@misc{wang2026logitadjustmentresidualdecomposition,
+      title={Beyond Logit Adjustment: A Residual Decomposition Framework for Long-Tailed Reranking}, 
       author={Zhanliang Wang and Hongzhuo Chen and Quan Minh Nguyen and Mian Umair Ahsan and Kai Wang},
-      booktitle={Conference on Language Modeling (COLM)},
       year={2026},
-      url={https://arxiv.org/abs/2604.01506},
+      eprint={2604.01506},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2604.01506}, 
 }
 ```
 
