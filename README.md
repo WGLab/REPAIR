@@ -33,7 +33,7 @@ Long-tailed classification methods like logit adjustment apply a **fixed per-cla
 - A **pairwise** component (input-dependent correction based on shortlist competition)
 
 ```
-$$r_y(x, S) = g_y(x) + a_y + (1/(k-1)) * sum_{j in S\{y}} theta^T phi(x, y, j)$$
+r_y(x, S) = g_y(x) + a_y + (1/(k-1)) * sum_{j in S\{y}} theta^T phi(x, y, j)
               base    classwise            pairwise
 ```
 
